@@ -58,3 +58,6 @@
 - to raise errors by its name
 - need to mention the correct ruby error names like NameError, DivisionByZero etc.
 - ref:- 45_raise_error_matcher_spec.rb
+
+10. respond_to matchers
+- check if an object responds to a method
