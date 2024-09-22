@@ -60,4 +60,13 @@
 - ref:- 45_raise_error_matcher_spec.rb
 
 10. respond_to matchers
-- check if an object responds to a method
+- check if an object responds to a method(ie, if there is a method that object can invoke)
+- ref:- 46_respond_to_matcher_spec.rb
+
+11. satisfy matchers
+- pass a block with key to return a boolean value
+- ref:- 47_satisfy_matcher_spec.rb
+
+12. compound expectations
+- combine more than 1 expectations in a single line.
+- ref:- 47_satisfy_matcher_spec.rb
