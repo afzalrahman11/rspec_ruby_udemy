@@ -47,3 +47,14 @@
 7. Incldue Matchers (similar to Ruby includes method)
 - check the arguments regardless of order included in the object.
 - ref:- 40_change_matchers_spec.rb
+
+8. start_with and end_with matchers
+- subject { 'Iphone 16 series has not much innovation than the previous year' }
+  expect(subject).to start_with('Iphone')
+  expect(subject).to end_with('year')
+  it { is_expected.to start_with('Iphone') }
+
+9. raise error matchers
+- to raise errors by its name
+- need to mention the correct ruby error names like NameError, DivisionByZero etc.
+- ref:- 45_raise_error_matcher_spec.rb
