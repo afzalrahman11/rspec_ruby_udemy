@@ -14,3 +14,7 @@
 3. allow method 
 - can use to overwrite default methods like sum in array.
 - ref:- 54_allow_method_spec.rb
+
+4. matching arguments
+- will return different values depending on the arguments
+- ref:- 55_matching_arguments_spec.rb
