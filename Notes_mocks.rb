@@ -18,3 +18,9 @@
 4. matching arguments
 - will return different values depending on the arguments
 - ref:- 55_matching_arguments_spec.rb
+- ref:- https://rspec.info/features/3-12/rspec-mocks/setting-constraints/matching-arguments/
+
+5. instance doubles
+- you pass it the class whose instance you want to double on
+- can only pass same methods with same number of arguments in the class.
+- ref:- 56_instance_double_spec.rb
