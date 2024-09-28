@@ -24,3 +24,7 @@
 - you pass it the class whose instance you want to double on
 - can only pass same methods with same number of arguments in the class.
 - ref:- 56_instance_double_spec.rb
+
+5. class doubles
+- if we are doubling the class, use class_double
+- ref:- 57_class_double_spec.rb
